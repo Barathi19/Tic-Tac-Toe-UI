@@ -1,6 +1,6 @@
 import { Client, Session, type Socket } from '@heroiclabs/nakama-js';
-const PORT = import.meta.env.PORT;
-const NAKAMA_HOST = import.meta.env.NAKAMA_HOST;
+const PORT = import.meta.env.VITE_PORT;
+const NAKAMA_HOST = import.meta.env.VITE_NAKAMA_HOST;
 
 export { Session };
 
